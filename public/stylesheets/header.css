@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+.top {
+	width: 100%;
+	height: 80px;
+	background: url(../images/home.nav.bg.png) center top no-repeat;
+	/* background: #00B7FF; */
+	color: #827c79;
+	font: 16px/16px 'Microsoft YaHei';
+}
+
+.nav_main {
+	height: 100%;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.nav_logo {
+	display: block;
+	width: 260px;
+	height: 40px;
+	margin-top: 20px;
+	margin-right: 20px;
+	float: left;
+	text-indent: -1000px;
+	background: url(../images/home.logo.png) center top no-repeat;
+}
+
+.dota2nav {
+	width: 644px;
+	height: 80px;
+	float: left;
+	color: #827c79;
+}
+
+.link_div {
+	position: relative;
+	float: left;
+	padding: 23px 7px;
+	text-align: center;
+	width: 78px;
+	height: 34px;
+	color: #827c79;
+}
+
+.link_div:hover>a{
+	color: #00b7f4;
+}
+
+.link_div:hover>a>span{
+	color: #00b7f4;
+	
+}
+
+.link_div:hover>.link_pop{
+	display: block;
+}
+
+.link_pop>a:hover{
+	color: #00b7f4;
+}
+
+.link_nav {
+	display: block;
+	font-size: 16px;
+	color: #827c79;
+}
+
+.link_nav_a {
+	display: block;
+	font-size: 16px;
+	color: #827c79;
+}
+
+.link_nav_e {
+	display: block;
+	color: #827c79;
+	font-size: 12px;
+	margin-top: 2px;
+	line-height: 16px;
+	-webkit-transform: scale(0.75);
+	-moz-transform: scale(0.75);
+	-ms-transform: scale(0.75);
+	transform: scale(0.75);
+}
+.link_pop{
+	display: none;
+	    position: absolute;
+	    top: 70px;
+	    left: 0;
+	    padding-top: 10px;
+	    width: 100%;
+	    height: 278px;
+	    font-size: 15px;
+	    line-height: 30px;
+	    text-align: center;
+	    background: url(../images/submenu.bg.png) top center no-repeat;
+	    background-size: cover;
+}
+.link_pop a{
+	display: block;
+	font-size: 15px;
+	color: #827c79;
+}
+.dota2user{
+	    float: right;
+	    width: 234px;
+	    height: 100%;
+	    margin-right: 0;
+	    color: #ccc;
+	    position: relative;
+		overflow: hidden;
+}
+.nav-avatar{
+	    position: absolute;
+	    width: 50px;
+	    height: 50px;
+	    left: 0;
+	    top: 13px;
+	    border-radius: 50%;
+	    border: 1px solid #262323;
+	    background-color: #101215;
+	    box-sizing: content-box;
+	}
+.avatar-default{
+	background-color: #101215;
+	background-image: url(../images/icons.png);
+	background-position: 13px -451px;
+	}
+.enter-box{
+	width: 169px;
+	height: 42px;
+	margin-top: 17px;
+	float: right;
+}
+.name{
+	width: 169px;
+	    font-size: 18px;
+	    color: #00b7f4;
+	    line-height: 1.2;
+	    text-overflow: ellipsis;
+	    overflow: hidden;
+	    white-space: nowrap;
+	    margin: 0;
+	    margin-bottom: 3px;
+}
+.name>span{
+	color: #fff;
+	font-family: 'Microsoft YaHei', Verdana, Geneva, sans-serif, \5b8b\4f53;
+}
+.name>a{
+	color: #00b7f4;
+}
+.tt{
+	    font-size: 12px;
+	    color: #898989;
+	    padding: 0;
+	    line-height: 1.5;
+	    font-family: 'Microsoft YaHei', Verdana, Geneva, sans-serif, \5b8b\4f53;
+}

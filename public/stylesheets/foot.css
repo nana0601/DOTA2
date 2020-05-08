@@ -1,0 +1,53 @@
+ /* 底部 */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+.bottom{
+	height: 180px;
+	background-color: #000;
+	background-repeat: no-repeat;
+	/* z-index: 1; */
+	font-size: 12px;
+	color: #959595;
+	position: relative;
+}
+.bottom>.foot_dl{
+	width:988.625px;
+	height:30px;
+	margin:0 auto;
+	padding-top:40px;
+}
+.bottom>.foot_dl>.dt{
+	float:left;
+}
+.bottom>.foot_dl>.dt>a{
+	float: left;
+    padding: 0 11px;
+}
+.bottom>.certificate{
+	width:881.781px;
+	height:37.266px;
+	margin:20px auto 0;
+	line-height: 1.5;
+	font-size: 12px;
+	color: #333;
+	text-align: center;
+}
+.bottom>.certificate>a{
+	color: #959595;
+}
+.remark {
+    line-height: 1.5;
+    font-size: 12px;
+    color: #333;
+    text-align: center;
+}

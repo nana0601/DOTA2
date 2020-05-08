@@ -1,0 +1,48 @@
+$(function(){
+	$('.wanmei_small').on('mouseenter',function(){
+		$('.wanmei_big').css({
+			display:'block'
+		})
+		$('.wanmei_big>a').css({
+			display:'block'
+		}).stop().animate({
+			opacity:1
+		},300)
+	})
+	$('.wanmei_big').on('mouseleave',function(){
+		$('.wanmei_big>a').stop().animate({
+			opacity:0
+		},300,function(){
+			$('.wanmei_big').css({
+				display:'none'
+			})
+			$('.wanmei_big>a').css({
+				display:'none'
+			})
+		})
+	})
+	$('.wanmei_msg_game').on('mouseenter',function(){
+		$('.wanmei_games').css({
+			display:'block'
+		})
+	})
+	var timer
+	$('.wanmei_msg_game').on('mouseleave',function(){
+		timer = setTimeout(function(){
+			$('.wanmei_games').css({
+				display:'none'
+			})
+		},1000)
+	})
+	$('.wanmei_games').on('mouseenter',function(){
+		clearTimeout(timer)
+		$(this).css({
+			display:'block'
+		})
+	})
+	$('.wanmei_games').on('mouseleave',function(){
+		$(this).css({
+			display:'none'
+		})
+	})
+})

@@ -1,0 +1,29 @@
+$(function(){
+	$('.close').hover(function(){
+		$('.close>i').css({
+			opacity:1
+		})
+	},function(){
+		$('.close>i').css({
+			opacity:0.6
+		})
+	})
+	
+	$('.close').on('click',function(){
+		$('.overlay').css({
+			display:'none'
+		})
+		$('.wxdialog').css({
+			display:'none'
+		})
+	})
+	
+	$('.open').on('click',function(){
+		$('.overlay').css({
+			display:'block'
+		})
+		$('.wxdialog').css({
+			display:'block'
+		})
+	})
+})

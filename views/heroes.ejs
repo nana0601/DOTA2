@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="icon" href="./../images/dota2.png">
+		<title>初识DOTA2 - DOTA2 - 刀塔官方网站 - 全球顶级竞技 唯一正统续作</title>
+		<link rel="stylesheet" href="stylesheets/heroes.css">
+		<link rel="stylesheet" href="stylesheets/head.css">
+		<link rel="stylesheet" href="stylesheets/foot.css">
+	</head>
+	<body>
+		<div class="box">
+			<div class="nav">
+				<div class="nav_main">
+					<a href="#"></a>
+					<div class="dota2nav">
+						<div class="link_div">
+							<a href="/index" class="a1">
+								<span>首页</span>
+								<span class="s2">HOME</span>
+							</a>
+							<ul class="link_pop">
+								<li><a href="/ppz" class="a2">品牌站</a></li>
+								<li><a href="/login" class="a2">个人中心</a></li>
+								<li><a href="#" class="a2">神秘商店</a></li>
+							</ul>
+						</div>
+						<div class="link_div">
+							<a href="/news" class="a1">
+								<span>资讯</span>
+								<span class="s2">NEWS</span>
+							</a>
+							<ul class="link_pop">
+								<li><a href="/news" class="a2">官方新闻</a></li>
+								<li><a href="/game" class="a2">赛事新闻</a></li>
+								<li><a href="/renew" class="a2">跟新日志</a></li>
+								<li><a href="/strategy" class="a2">游戏攻略</a></li>
+							</ul>
+						</div>
+						<div class="link_div">
+							<a href="/saishi" class="a1">
+								<span>赛事</span>
+								<span style="margin-left: -5px;" class="s2">TOURNAMENTS</span>
+							</a>
+						</div>
+						<div class="link_div">
+							<a href="/data" class="a1">
+								<span>互动</span>
+								<span class="s2">INTERACTION</span>
+							</a>
+							<ul class="link_pop">
+								<li><a href="/zonghe" class="a2">精彩综合</a></li>
+								<li><a href="/huodong" class="a2">官方活动</a></li>
+								<li><a href="#" class="a2">玩家论坛</a></li>
+								<li><a href="#" class="a2">新浪微博</a></li>
+								<li><a href="#" class="a2">官方微信</a></li>
+							</ul>
+						</div>
+						<div class="link_div">
+							<a href="/data" class="a1">
+								<span>资料</span>
+								<span class="s2">DATA</span>
+							</a>
+							<ul class="link_pop">
+								<li><a href="/heroes" class="a2">英雄资料</a></li>
+								<li><a href="/items" class="a2">物品资料</a></li>
+								<li><a href="#" class="a2">自定义地图</a></li>
+								<li><a href="#" class="a2">新手引导</a></li>
+							</ul>
+						</div>
+						<div class="link_div">
+							<a href="/bbs" class="a1">
+								<span>服务</span>
+								<span class="s2">SERVICE</span>
+							</a>
+							<ul class="link_pop">
+								<li><a href="/service" class="a2">客服中心</a></li>
+								<li><a href="/online" class="a2">在线客服</a></li>
+								<li><a href="/contact" class="a2">自助专区</a></li>
+								<li><a href="#" class="a2">被盗找回</a></li>
+								<li><a href="#" class="a2">忘记账号</a></li>
+								<li><a href="/select" class="a2">通行证查询</a></li>
+								<li><a href="/parents" class="a2">家长监护</a></li>
+							</ul>
+						</div>
+						<div class="link_div">
+							<a href="#" class="a1">
+								<span>下载</span>
+								<span class="s2">DOWNLOAD</span>
+							</a>
+							<ul class="link_pop">
+								<li><a href="#" class="a2">游戏下载</a></li>
+								<li><a href="#" class="a2">精美壁纸</a></li>
+								<li><a href="#" class="a2">官方漫画</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="dota2user">
+						<i></i>
+						<div class="enter-box">
+							<p><span>您好，请 </span><a href="#">登陆</a></p>
+							<span class="tt">登录后可进入您的个人中心</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 英雄 -->
+			<div class="bg">
+				<div class="r_bar_bg">
+					<div class="hero_top_wrap">
+						<span>全部英雄</span>
+						<a href="javascript:return false;" class="bc"></a>
+					</div>
+					<div class="black_cont">
+						<div class="goods_main">
+							<div class="hero_tit_box">
+								<div class="hero_name">
+									<p>全部英雄</p>
+								</div>
+								<div class="hero_roles">
+									<span class="bioTextAttack">近战</span>
+									<span class="difference">- 核心 - 逃生 - 爆发 - 控制 - 先手</span>
+								</div>
+							</div>
+							<div class="heroFilterArea">
+								过滤器
+								<select id="filterRole" class="filterSelect" name="">
+								       <option value="">按定位</option>
+								       <option value="">所有</option>
+								       <option value="Carry">核心</option>
+								       <option value="Disabler">控制</option>
+								       <!--<option value="LaneSupport">对线辅助</option>-->
+								       <option value="Initiator">先手</option>
+								       <option value="Jungler">打野</option>
+								       <option value="Support">辅助</option>
+								       <option value="Durable">耐久</option>
+								       <option value="Nuker">爆发</option>
+								       <option value="Pusher">推进</option>
+								       <option value="Escape">逃生</option>
+								</select>									
+								<select id="filterAttack" class="filterSelect select2" name="">
+								       <option value="">按攻击类型</option>
+								       <option value="">所有</option>
+								       <option value="melee">近战</option>
+								       <option value="ranged">远程</option>
+								</select>									      
+								<select id="filterName" class="filterSelect noCaps" name="">
+									 <option value="">英雄名称</option>
+									 <option value="">所有</option>
+									 <option value="antimage">敌法师</option>
+									 <option value="axe">斧王</option>
+									 <option value="bane">祸乱之源</option>
+									 <option value="bloodseeker">嗜血狂魔</option>
+									 <option value="crystal_maiden">水晶室女</option>
+									 <option value="drow_ranger">卓尔游侠</option>
+									 <option value="earthshaker">撼地者</option>
+									 <option value="juggernaut">主宰</option>
+									 <option value="mirana">米拉娜</option>
+									 <option value="nevermore">影魔</option>
+									 <option value="morphling">变体精灵</option>
+									 <option value="phantom_lancer">幻影长矛手</option>
+									 <option value="puck">帕克</option>
+									 <option value="pudge">帕吉</option>
+									 <option value="razor">剃刀</option>
+									 <option value="sand_king">沙王</option>
+									 <option value="storm_spirit">风暴之灵</option>
+									 <option value="sven">斯温</option>
+									 <option value="tiny">小小</option>
+									 <option value="vengefulspirit">复仇之魂</option>
+									 <option value="windrunner">风行者</option>
+									 <option value="zuus">宙斯</option>
+									 <option value="kunkka">昆卡</option>
+									 <option value="lina">莉娜</option>
+									 <option value="lich">巫妖</option>
+									 <option value="lion">莱恩</option>
+									 <option value="shadow_shaman">暗影萨满</option>
+									 <option value="slardar">斯拉达</option>
+									 <option value="tidehunter">潮汐猎人</option>
+									 <option value="witch_doctor">巫医</option>
+									 <option value="riki">力丸</option>
+									 <option value="enigma">谜团</option>
+									 <option value="tinker">修补匠</option>
+									 <option value="sniper">狙击手</option>
+									 <option value="necrolyte">瘟疫法师</option>
+									 <option value="warlock">术士</option>
+									 <option value="beastmaster">兽王</option>
+									 <option value="queenofpain">痛苦女王</option>
+									 <option value="venomancer">剧毒术士</option>
+									 <option value="faceless_void">虚空假面</option>
+									 <option value="skeleton_king">冥魂大帝</option>
+									 <option value="death_prophet">死亡先知</option>
+									 <option value="phantom_assassin">幻影刺客</option>
+									 <option value="pugna">帕格纳</option>
+									 <option value="templar_assassin">圣堂刺客</option>
+									 <option value="viper">冥界亚龙</option>
+									 <option value="luna">露娜</option>
+									 <option value="dragon_knight">龙骑士</option>
+									 <option value="dazzle">戴泽</option>
+									 <option value="rattletrap">发条技师</option>
+									 <option value="leshrac">拉席克</option>
+									 <option value="furion">先知</option>
+									 <option value="life_stealer">噬魂鬼</option>
+									 <option value="dark_seer">黑暗贤者</option>
+									 <option value="clinkz">克林克兹</option>
+									 <option value="omniknight">全能骑士</option>
+									 <option value="enchantress">魅惑魔女</option>
+									 <option value="huskar">哈斯卡</option>
+									 <option value="night_stalker">暗夜魔王</option>
+									 <option value="broodmother">育母蜘蛛</option>
+									 <option value="bounty_hunter">赏金猎人</option>
+									 <option value="weaver">编织者</option>
+									 <option value="jakiro">杰奇洛</option>
+									 <option value="batrider">蝙蝠骑士</option>
+									 <option value="chen">陈</option>
+									 <option value="spectre">幽鬼</option>
+									 <option value="doom">末日使者</option>
+									 <option value="ancient_apparition">远古冰魄</option>
+									 <option value="ursa">熊战士</option>
+									 <option value="spirit_breaker">裂魂人</option>
+									 <option value="gyrocopter">矮人直升机</option>
+									 <option value="alchemist">炼金术士</option>
+									 <option value="invoker">祈求者</option>
+									 <option value="silencer">沉默术士</option>
+									 <option value="obsidian_destroyer">殁境神蚀者</option>
+									 <option value="lycan">狼人</option>
+									 <option value="brewmaster">酒仙</option>
+									 <option value="shadow_demon">暗影恶魔</option>
+									 <option value="lone_druid">德鲁伊</option>
+									 <option value="chaos_knight">混沌骑士</option>
+									 <option value="meepo">米波</option>
+									 <option value="treant">树精卫士</option>
+									 <option value="ogre_magi">食人魔魔法师</option>
+									 <option value="undying">不朽尸王</option>
+									 <option value="rubick">拉比克</option>
+									 <option value="disruptor">干扰者</option>
+									 <option value="nyx_assassin">司夜刺客</option>
+									 <option value="naga_siren">娜迦海妖</option>
+									 <option value="keeper_of_the_light">光之守卫</option>
+									 <option value="wisp">艾欧</option>
+									 <option value="visage">维萨吉</option>
+									 <option value="slark">斯拉克</option>
+									 <option value="medusa">美杜莎</option>
+									 <option value="troll_warlord">巨魔战将</option>
+									 <option value="centaur">半人马战行者</option>
+									 <option value="magnataur">马格纳斯</option>
+									 <option value="shredder">伐木机</option>
+									 <option value="bristleback">钢背兽</option>
+									 <option value="tusk">巨牙海民</option>
+									 <option value="skywrath_mage">天怒法师</option>
+									 <option value="abaddon">亚巴顿</option>
+									 <option value="elder_titan">上古巨神</option>
+									 <option value="legion_commander">军团指挥官</option>
+									 <option value="ember_spirit">灰烬之灵</option>
+									 <option value="earth_spirit">大地之灵</option>
+									 <option value="terrorblade">恐怖利刃</option>
+									 <option value="phoenix">凤凰</option>
+									 <option value="oracle">神谕者</option>
+									 <option value="techies">工程师</option>
+									 <option value="techies">邪影芳灵</option>
+									 <option value="winter_wyvern">寒冬飞龙</option>
+									 <option value="arc_warden">天穹守望者</option>
+									 <option value="monkey_king">齐天大圣</option>
+									 <option value="pangolier">石鳞剑士</option>
+									 <option value="abyssal_underlord">孽主</option>
+								</select>
+							</div>
+							<div style="width:870px; margin:0 auto; padding-top:20px;">
+								<ul class="hero_list hero_list1">
+									<li class="hero_list_tit">
+										<span>力量</span>
+									</li>
+								</ul>
+								<ul class="hero_list hero_list2">
+									<li class="hero_list_tit">
+										<span class="s2">敏捷</span>
+									</li>
+								</ul>
+								<ul class="hero_list hero_list3">
+									<li class="hero_list_tit">
+										<span class="s3">智力</span>
+									</li>
+								</ul>
+								<ul class="hero_list hero_list4">
+									
+								</ul>
+								<ul class="hero_list hero_list5">
+									
+								</ul>
+								<ul class="hero_list hero_list6">
+									
+								</ul>
+							</div>
+							
+						</div>
+					</div>
+				</div>	
+			</div>
+			<!-- 底部 -->
+			<div class="bottom footerIframe">
+				<div class="foot_dl">
+					<div class="dt">
+						<a href="#"><img src="./../images/logo-wanmei20180327.png" alt=""></a>
+						<a href="#"><img src="./../images/logo-valve.png" alt=""></a>
+					</div>
+					<div class="dd">
+						© 完美世界 版权所有　Perfect World. All Rights Reserved. <br>
+						© 2012 Valve Corporation. All Rights reserved. Licensed to Beijing Perfect World Network Technology Co., Ltd. in China
+					</div>
+				</div>
+				<p class="certificate">
+					京ICP证：050016号
+					<a href="#">《网络文化经营许可证》编号：京网文[2017]8929-1007号</a>
+					《网络视听许可证》编号：0110587<br>
+					京公网安备11010502033859号
+					<a href="#"> 新出审字[2013] 1505号 ISBN：978-7-89989-826-0 | </a>
+					<a href="" style="color:#53bdfa;">家长监护</a> | <a href="" style="color:#53bdfa;">纠纷处理</a> | <a href="" style="color:#53bdfa;">营业执照</a> | <a href="" style="color:#53bdfa;">儿童隐私保护指引</a>
+				</p>
+				<p class="remark">本网络游戏适合年满17岁以上的用户使用：请您确定已如实进行实名注册。为了您的健康，请合理控制游戏时间。</p>
+			</div>
+		</div>
+		<script type="text/javascript" src="javascripts/jquery-3.2.0.js" ></script>
+		<script type="text/javascript" src="javascripts/heroes.js" ></script>
+	</body>
+</html>

@@ -1,0 +1,963 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background: #F2F2F2 url(../images/background.jpg) no-repeat center 40px;
+}
+.wanmei_top {
+  width: 100%;
+  height: 41px;
+  background: #fbfbfb url(../images/bg.jpg) repeat-x left top;
+  z-index: 200000;
+}
+.wanmei_top .wanmei_nav {
+  width: 1002px;
+  height: 37px;
+  padding-top: 1px;
+  padding-bottom: 3px;
+  margin: 0 auto;
+  background: #fbfbfb url(../images/bg.jpg) repeat-x left top;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 20000;
+  font-family: "微软雅黑", "宋体";
+  font-size: 12px;
+}
+.wanmei_top .wanmei_nav .wanmei_logo {
+  width: 150px;
+  height: 37px;
+  position: absolute;
+  top: 1px;
+  left: 5px;
+  background: url(../images/wanmei_top.png) no-repeat left -180px;
+  z-index: 29000;
+}
+.wanmei_top .wanmei_nav .wanmei_logo a {
+  display: block;
+  width: 150px;
+  height: 37px;
+  text-indent: -10000px;
+  overflow: hidden;
+}
+.wanmei_top .wanmei_nav .wanmei_small {
+  width: 600px;
+  height: 37px;
+  position: absolute;
+  top: 1px;
+  left: 155px;
+  z-index: 21000;
+}
+.wanmei_top .wanmei_nav .wanmei_small ul {
+  position: relative;
+  z-index: 20000;
+  width: 600px;
+}
+.wanmei_top .wanmei_nav .wanmei_small ul li {
+  width: 100%;
+  float: left;
+}
+.wanmei_top .wanmei_nav .wanmei_small ul li img {
+  height: 37px;
+}
+.wanmei_top .wanmei_nav .wanmei_big {
+  width: 952px;
+  height: 187px;
+  position: absolute;
+  left: 25px;
+  top: 1px;
+  z-index: 22000;
+  display: none;
+}
+.wanmei_top .wanmei_nav .wanmei_big a {
+  display: none;
+  height: 187px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+.wanmei_top .wanmei_nav .wanmei_big a img {
+  display: block;
+}
+.wanmei_top .wanmei_nav .wanmei_msg {
+  height: 20px;
+  line-height: 20px;
+  position: absolute;
+  top: 11px;
+  right: 25px;
+  text-align: right;
+  z-index: 29000;
+}
+.wanmei_top .wanmei_nav .wanmei_msg a {
+  display: inline-block;
+  float: right;
+  height: 20px;
+  line-height: 20px;
+  color: #444444;
+  font-size: 12px;
+}
+.wanmei_top .wanmei_nav .wanmei_msg .wanmei_msg_game {
+  width: 95px;
+  background: url(../images/wanmei_top.png) no-repeat left top;
+  text-align: left;
+  text-indent: 9px;
+  margin-left: 10px;
+}
+.wanmei_top .wanmei_nav .wanmei_msg .wanmei_msg_xian {
+  display: inline-block;
+  width: 16px;
+  text-align: center;
+  color: #a4a3a3;
+  float: right;
+}
+.wanmei_top .wanmei_nav .wanmei_games {
+  width: 869px;
+  background: #f8f8f8 url(../images/wanmei_games_bg.jpg) no-repeat left top;
+  position: absolute;
+  top: 38px;
+  right: 25px;
+  z-index: 300000;
+  border: 1px solid #CFCFCF;
+  display: none;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_l {
+  width: 713px;
+  border-right: 1px solid #CFCFCF;
+  float: left;
+  padding-top: 18px;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_l .wanmei_games_hot {
+  height: 72px;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_l .wanmei_games_hot .wanmei_games_hot_li01 {
+  width: 60px;
+  padding-left: 15px;
+  font-size: 12px;
+  color: #383838;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 40px;
+  float: left;
+  height: 40px;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_l .wanmei_games_hot .wanmei_games_hot_list {
+  width: 510px;
+  float: left;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_l .wanmei_games_hot .wanmei_games_hot_list li {
+  width: 70px;
+  float: left;
+  padding-left: 14px;
+  padding-bottom: 10px;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_l .wanmei_games_hot .wanmei_games_hot_list li a {
+  display: block;
+  height: 38px;
+  width: 70px;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_l .wanmei_games_hot .wanmei_games_hot_list li a img {
+  width: 70px;
+  height: 38px;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_l .wanmei_games_hot .wanmei_games_hot_list li span {
+  display: block;
+  height: 20px;
+  line-height: 20px;
+  padding-top: 5px;
+  font-size: 12px;
+  color: #383838;
+  text-align: center;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_l .wanmei_game_box {
+  border-top: 1px solid #CFCFCF;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_l .wanmei_game_box .wanmei_game_item {
+  float: left;
+  height: 231px;
+  border-right: 1px solid #CFCFCF;
+  width: 118px;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_l .wanmei_game_box .wanmei_game_item .wanmei_game_box_head {
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  font-weight: bolder;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_l .wanmei_game_box .wanmei_game_item .wanmei_game_box_list {
+  border-right: 1px solid #CFCFCF;
+  float: left;
+  width: 118px;
+  border-top: 1px solid #CFCFCF;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_l .wanmei_game_box .wanmei_game_item .wanmei_game_box_list li {
+  height: 28px;
+  line-height: 28px;
+  padding-left: 18px;
+  width: 100px;
+  overflow: hidden;
+  border-bottom: 1px solid #CFCFCF;
+  background: url(../images/wanmei_top.png) no-repeat 10px -228px;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_l .wanmei_game_box .wanmei_game_item .wanmei_game_box_list li a {
+  display: block;
+  width: 100px;
+  height: 28px;
+  line-height: 28px;
+  overflow: hidden;
+  color: #383838;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_l .wanmei_game_box .wanmei_game_item .wanmei_game_box_list li :hover {
+  color: #c20911;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_l .wanmei_game_box .wanmei_game_item .wanmei_game_box_list li .wanmei_hot {
+  background: url(../images/wanmei_top.png) no-repeat 85px -52px;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_l .wanmei_game_box .wanmei_game_item .wanmei_game_box_list li .wanmei_new {
+  background: url(../images/wanmei_top.png) no-repeat 85px -112px;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_l .wanmei_game_box .wanmei_game_item .wanmei_game_box_list03 {
+  border-right: 0;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_l .wanmei_game_box .wanmei_game_khd {
+  width: 356px;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_l .wanmei_game_box .wanmei_game_dj {
+  border: 0;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_l .wanmei_game_box .wanmei_game_wy .wanmei_game_box_list {
+  float: none;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_r {
+  width: 155px;
+  float: right;
+  padding-top: 7px;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_r .wmpassport {
+  width: 134px;
+  height: 62px;
+  margin-left: 11px;
+  margin-top: 8px;
+  display: block;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_r .wanmei_seaver {
+  width: 140px;
+  padding-left: 3px;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_r .wanmei_seaver li {
+  width: 62px;
+  height: 62px;
+  padding: 8px 0px 0px 8px;
+  float: left;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_r .wanmei_seaver li a {
+  display: block;
+  width: 62px;
+  height: 62px;
+  text-indent: -10000px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-image: url(../images/wanmei_fuwu.gif);
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_r .wanmei_seaver .wanmei_btn01 a {
+  background-position: left top;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_r .wanmei_seaver .wanmei_btn01 :hover {
+  background-position: -62px top;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_r .wanmei_seaver .wanmei_btn02 a {
+  background-position: -124px top;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_r .wanmei_seaver .wanmei_btn02 :hover {
+  background-position: -186px top;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_r .wanmei_seaver .wanmei_btn03 a {
+  background-position: left -62px;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_r .wanmei_seaver .wanmei_btn03 :hover {
+  background-position: -62px -62px;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_r .wanmei_seaver .wanmei_btn04 a {
+  background-position: -124px -62px;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_r .wanmei_seaver .wanmei_btn04 :hover {
+  background-position: -186px -62px;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_r .wanmei_seaver .wanmei_btn05 a {
+  background-position: -124px -124px;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_r .wanmei_seaver .wanmei_btn05 :hover {
+  background-position: -186px -124px;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_r .wanmei_seaver .wanmei_btn06 a {
+  background-position: -124px -186px;
+}
+.wanmei_top .wanmei_nav .wanmei_games .wanmei_games_r .wanmei_seaver .wanmei_btn06 :hover {
+  background-position: -186px -186px;
+}
+.hd {
+  border-bottom: 0 solid #c2D5e3;
+  height: 258px;
+}
+.hd .wp {
+  min-width: 960px;
+  width: 1260px;
+  margin: 0 auto;
+  height: 100%;
+}
+.hd .wp .hdc {
+  height: 198px;
+  min-height: 70px;
+}
+.hd .wp .nv-wanmei {
+  background-color: #1e1e1e;
+  clear: both;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 3px 3px 0 0;
+  height: 60px;
+}
+.hd .wp .nv-wanmei .qmenu {
+  background: url(../images/quick-menu.png) no-repeat;
+  display: block;
+  height: 60px;
+  width: 60px;
+  float: right;
+}
+.hd .wp .nv-wanmei .scbar {
+  overflow: hidden;
+  height: auto;
+  border-top: 0;
+  border-bottom: 0;
+  background: #1E1E1E;
+  float: right;
+  padding-top: 6px;
+  line-height: 42px;
+}
+.hd .wp .nv-wanmei .scbar .form_div {
+  background: #262626;
+  border-radius: 20px;
+  margin-right: 14px;
+  margin-top: 2px;
+}
+.hd .wp .nv-wanmei .scbar .form_div .scbar_txt {
+  border: 0;
+  height: 32px;
+  font-size: 12px;
+  line-height: 32px;
+  width: 160px;
+  background: none;
+  padding-left: 10px;
+  outline: 0;
+  color: #999;
+}
+.hd .wp .nv-wanmei .scbar .form_div .scbar_type {
+  width: 31px;
+  padding-left: 3px;
+  height: 32px;
+  border-left: 0 none transparent;
+  line-height: 32px;
+  border-radius: 0 3px 0 0;
+  display: inline-block;
+  text-align: left;
+  padding-right: 10px;
+  background: url(../images/down.png) no-repeat right 15px;
+  margin-left: 4px;
+  font-size: 12px;
+  color: #999;
+}
+.hd .wp .nv-wanmei .scbar .form_div .pn {
+  background: url(../images/search.png) no-repeat;
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+  text-indent: -9999em;
+  display: inline-block;
+  outline: none;
+  box-shadow: 0 0 0 #E5E5E5;
+  border: 0;
+}
+.hd .wp .nv-wanmei .nv-list {
+  overflow: hidden;
+  height: 60px;
+}
+.hd .wp .nv-wanmei .nv-list li {
+  float: left;
+  height: 60px;
+}
+.hd .wp .nv-wanmei .nv-list li a {
+  height: 60px;
+  line-height: 60px;
+  display: block;
+  font-size: 16px;
+  float: left;
+  width: 110px;
+  text-align: center;
+  overflow: hidden;
+  text-decoration: none;
+  color: #999;
+}
+.hd .wp .nv-wanmei .nv-list li:hover a {
+  color: #fff;
+  background-color: #d4242e;
+}
+.hd .wp .nv-wanmei .nv-list .active a {
+  color: #fff;
+  background-color: #d4242e;
+}
+.wpp {
+  min-width: 960px;
+  margin: 0 auto;
+  width: 1260px;
+}
+.wpp .pt {
+  margin: 2px 0;
+  height: 29px;
+  border: none;
+  background: transparent;
+  line-height: 29px;
+}
+.wpp .pt .z {
+  padding-left: 10px;
+  float: left;
+}
+.wpp .pt .z .nvhm {
+  width: 16px;
+  background: url(../images/search1.png) no-repeat 0 0;
+  line-height: 200px;
+  overflow: hidden;
+}
+.wpp .pt .z em {
+  width: 20px;
+  background: url(../images/pt_item.png) no-repeat 3px 10px;
+  line-height: 200px;
+  overflow: hidden;
+  display: inline-block;
+  float: left;
+  height: 20px;
+}
+.wpp .pt .z a {
+  float: left;
+  height: 29px;
+  font-size: 12px;
+  color: #333;
+}
+.boardnav .ct {
+  min-height: 300px;
+}
+.boardnav .ct .mn {
+  overflow: hidden;
+}
+.boardnav .ct .mn .bm {
+  border: 1px solid #cdcdcd;
+  background: #fff;
+  padding-bottom: 5px;
+}
+.boardnav .ct .mn .bm .bm_h {
+  padding-top: 5px;
+  border: none;
+  background: transparent;
+  padding: 0 10px;
+  height: 31px;
+  line-height: 31px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.boardnav .ct .mn .bm .bm_h .y {
+  float: right;
+}
+.boardnav .ct .mn .bm .bm_h .y a {
+  padding-left: 20px;
+  background: no-repeat 0 50%;
+  color: #333;
+  font-size: 12px;
+}
+.boardnav .ct .mn .bm .bm_h .y .fa_fav {
+  background-image: url(../images/fav.gif);
+}
+.boardnav .ct .mn .bm .bm_h .y .pipe {
+  margin: 0 5px;
+  color: #ccc;
+}
+.boardnav .ct .mn .bm .bm_h .y .fa_rss {
+  background-image: url(../images/feed.gif);
+}
+.boardnav .ct .mn .bm .bm_h .xs2 {
+  font-size: 14px;
+  font-weight: 400;
+}
+.boardnav .ct .mn .bm .bm_h .xs2 a {
+  color: #333;
+}
+.boardnav .ct .mn .bm .bm_h .xs2 .xs1 {
+  padding-left: 10px;
+  font-weight: 400;
+  font-size: 12px;
+}
+.boardnav .ct .mn .bm .bm_h .xs2 .xs1 .xi1 {
+  color: #f26c4f;
+}
+.boardnav .ct .mn .bm .bm_h .xs2 .xs1 .pipe {
+  margin: 0 5px;
+  color: #ccc;
+}
+.boardnav .ct .mn .bm .bm_h .xs2 .xs1 b {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin: 0 5px;
+  background: url(../images/increase.png) no-repeat left center;
+  vertical-align: middle;
+  text-indent: -999em;
+}
+.boardnav .ct .mn .forum_list .bmw {
+  background-size: 100% 7px;
+  padding-bottom: 7px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.boardnav .ct .mn .forum_list .bmw .bm_h {
+  background-color: #eaeaea;
+  border-top: 1px solid #ccc;
+  height: 42px;
+  line-height: 42px;
+  color: #fff;
+  padding-left: 15px;
+  padding-right: 0;
+  border-left-color: #eaeaea;
+  border-right-color: #eaeaea;
+}
+.boardnav .ct .mn .forum_list .bmw .bm_h .o {
+  width: 52px;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  float: right;
+  height: 42px;
+  line-height: 42px;
+}
+.boardnav .ct .mn .forum_list .bmw .bm_h .o img {
+  margin-top: 13px;
+  width: 20px;
+  cursor: pointer;
+  float: none;
+}
+.boardnav .ct .mn .forum_list .bmw .bm_h h2 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #666;
+}
+.boardnav .ct .mn .forum_list .bmw .subforum_192 {
+  padding: 15px;
+  background: #f2f2f2;
+  border: 1px solid #eaeaea;
+  color: #999;
+  margin-top: 20px;
+}
+.boardnav .ct .mn .forum_list .bmw .subforum_192 table .fl_g {
+  padding: 15px 0 26px;
+  float: left;
+  width: 25%;
+}
+.boardnav .ct .mn .forum_list .bmw .subforum_192 table .fl_g .fl_icn_g {
+  width: 160px;
+  float: left;
+}
+.boardnav .ct .mn .forum_list .bmw .subforum_192 table .fl_g .fl_icn_g a {
+  color: #333;
+  font-size: 12px;
+}
+.boardnav .ct .mn .forum_list .bmw .subforum_192 table .fl_g .fl_icn_g a img {
+  border-radius: 15px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  border: none;
+}
+.boardnav .ct .mn .forum_list .bmw .subforum_192 table .fl_g dl {
+  margin-left: 160px;
+  padding-left: 10px;
+}
+.boardnav .ct .mn .forum_list .bmw .subforum_192 table .fl_g dl dt {
+  font-weight: 700;
+  font-size: 12px;
+}
+.boardnav .ct .mn .forum_list .bmw .subforum_192 table .fl_g dl dt a {
+  color: #333;
+}
+.boardnav .ct .mn .forum_list .bmw .subforum_192 table .fl_g dl dd {
+  font-size: 12px;
+}
+.boardnav .ct .mn .forum_list .bmw .subforum_192 table .fl_g dl dd em {
+  font-style: normal;
+  font-weight: normal;
+}
+.boardnav .ct .mn .forum_list .bmw .subforum_192 table .fl_g dl dd a {
+  color: #333;
+}
+.boardnav .ct .mn .pgt {
+  background: transparent;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.boardnav .ct .mn .pgt .pgb {
+  margin-top: 5px;
+  line-height: 26px;
+  float: right;
+  font-size: 12px;
+}
+.boardnav .ct .mn .pgt .pgb a {
+  padding-left: 25px;
+  background-image: url(../images/arw_l.gif);
+  background-position: 10px 50%;
+  float: left;
+  display: inline-block;
+  margin-left: 4px;
+  height: 26px;
+  border: 1px solid;
+  border-color: #c2d5e3;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  color: #333;
+  padding-right: 10px;
+}
+.boardnav .ct .mn .pgt .newspecial {
+  display: inline-block;
+  color: #fff;
+  background-color: #5e95da;
+  border-radius: 2px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 36px;
+  height: 36px;
+  border: 0 none transparent;
+  cursor: pointer;
+  width: 120px;
+  margin-right: 5px;
+  float: left;
+}
+.boardnav .ct .mn .threadlist {
+  border: 1px solid #CDCDCD;
+  background-color: #fff;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+.boardnav .ct .mn .threadlist .th {
+  margin-top: 1px;
+  padding: 0 10px;
+  border-bottom: 1px solid #CDCDCD;
+  background: #F2F2F2;
+}
+.boardnav .ct .mn .threadlist .th table {
+  border: none;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 0;
+  empty-cells: show;
+}
+.boardnav .ct .mn .threadlist .th table th {
+  border-bottom: none;
+  height: 20px;
+  border: none;
+  vertical-align: baseline;
+  padding: 5px 0;
+  padding-right: 1.5em;
+  font-weight: normal;
+  text-align: left;
+}
+.boardnav .ct .mn .threadlist .th table th .tf {
+  padding: 3px 0;
+}
+.boardnav .ct .mn .threadlist .th table th .tf .atarget {
+  padding-left: 15px;
+  line-height: 16px;
+  background: url(../images/atarget.png) no-repeat 0 3px;
+  color: #369;
+  cursor: pointer;
+  float: right;
+}
+.boardnav .ct .mn .threadlist .th table th .tf .showmenu {
+  padding-right: 16px;
+  background: url(../images/arrwd.gif) no-repeat 100% 50%;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.boardnav .ct .mn .threadlist .th table th .tf .xi2 {
+  color: #369;
+}
+.boardnav .ct .mn .threadlist .th table th .tf .forumrefresh {
+  padding-right: 14px;
+  background: url(../images/refresh.png) no-repeat 100% 50%;
+}
+.boardnav .ct .mn .threadlist .th table .by {
+  height: 20px;
+  border: none;
+  vertical-align: baseline;
+  width: 105px;
+  line-height: 14px;
+}
+.boardnav .ct .mn .threadlist .th table .num {
+  height: 20px;
+  border: none;
+  vertical-align: baseline;
+  width: 60px;
+  line-height: 14px;
+}
+.boardnav .ct .mn .threadlist .bm_c {
+  padding: 10px;
+  padding-top: 0;
+}
+.boardnav .ct .mn .threadlist .bm_c table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 0;
+  empty-cells: show;
+  text-align: left;
+}
+.boardnav .ct .mn .threadlist .bm_c table .icn {
+  padding: 5px 0;
+  padding-left: 5px;
+  width: 25px;
+  text-align: left;
+  border-bottom: 1px dotted #CFCFCF;
+}
+.boardnav .ct .mn .threadlist .bm_c table .common {
+  padding: 5px 0;
+  border-bottom: 1px dotted #CFCFCF;
+  font-size: 14px;
+  font-weight: normal;
+}
+.boardnav .ct .mn .threadlist .bm_c table .common a {
+  color: #666;
+}
+.boardnav .ct .mn .threadlist .bm_c table .by {
+  padding: 5px 0;
+  width: 105px;
+  line-height: 14px;
+  border-bottom: 1px dotted #CFCFCF;
+}
+.boardnav .ct .mn .threadlist .bm_c table .by cite {
+  display: block;
+  font-weight: normal;
+  font-style: normal;
+}
+.boardnav .ct .mn .threadlist .bm_c table .by cite a {
+  color: #ff0000;
+}
+.boardnav .ct .mn .threadlist .bm_c table .by em {
+  font-weight: normal;
+  font-style: normal;
+  color: #999;
+}
+.boardnav .ct .mn .threadlist .bm_c table .num {
+  padding: 5px 0;
+  width: 60px;
+  line-height: 14px;
+  border-bottom: 1px dotted #CFCFCF;
+}
+.boardnav .ct .mn .threadlist .bm_c table .num a {
+  color: #369;
+}
+.boardnav .ct .mn .threadlist .bm_c table .num em {
+  display: block;
+  font-weight: normal;
+  font-style: normal;
+  color: #999;
+}
+.boardnav .ct .mn .f_pst {
+  border: 1px solid #CDCDCD;
+  background: #fff;
+  margin-bottom: 10px;
+  font-size: 12px;
+  text-align: left;
+}
+.boardnav .ct .mn .f_pst .bm_h {
+  padding: 0 10px;
+  height: 31px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #c2d5e3;
+  background: #f2f2f2;
+  line-height: 31px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.boardnav .ct .mn .f_pst .bm_h h2 {
+  font-size: 12px;
+  font-weight: normal;
+}
+.boardnav .ct .mn .f_pst .bm_c {
+  padding: 20px;
+}
+.boardnav .ct .mn .f_pst .bm_c .pbt {
+  margin-bottom: 10px;
+}
+.boardnav .ct .mn .f_pst .bm_c .pbt .px {
+  width: 25em;
+  padding: 2px;
+  height: 17px;
+  line-height: 17px;
+  border: 1px solid;
+  border-color: #848484 #e0e0e0 #e0e0e0 #848484;
+  background: #fff url(../images/px.png) repeat-x 0 0;
+}
+.boardnav .ct .mn .f_pst .bm_c .ptm {
+  padding-top: 10px;
+}
+.boardnav .ct .mn .f_pst .bm_c .cl .hasfsl {
+  margin-right: 170px;
+}
+.boardnav .ct .mn .f_pst .bm_c .cl .hasfsl .tedt {
+  width: auto;
+  border: 1px solid;
+  border-color: #999 #ccc #ccc #999;
+}
+.boardnav .ct .mn .f_pst .bm_c .cl .hasfsl .tedt .bar {
+  padding: 0 10px 0 0;
+  height: 25px;
+  line-height: 25px;
+  border-bottom: 1px solid #cdcdcd;
+  background: #f2f2f2;
+}
+.boardnav .ct .mn .f_pst .bm_c .cl .hasfsl .tedt .bar .y {
+  float: right;
+}
+.boardnav .ct .mn .f_pst .bm_c .cl .hasfsl .tedt .bar .y a {
+  color: #333;
+}
+.boardnav .ct .mn .f_pst .bm_c .cl .hasfsl .tedt .bar .fpd a {
+  float: left;
+  margin: 2px 5px 0 0;
+  width: 20px;
+  height: 20px;
+  background: url(../images/editor.gif) no-repeat;
+  text-indent: -9999px;
+  line-height: 20px;
+  overflow: hidden;
+}
+.boardnav .ct .mn .f_pst .bm_c .cl .hasfsl .tedt .bar .fpd .fbld {
+  background-position: 0 0;
+}
+.boardnav .ct .mn .f_pst .bm_c .cl .hasfsl .tedt .bar .fpd .fclr {
+  background-position: -60px 0;
+}
+.boardnav .ct .mn .f_pst .bm_c .cl .hasfsl .tedt .bar .fpd .fmg {
+  background-position: 0 -20px;
+}
+.boardnav .ct .mn .f_pst .bm_c .cl .hasfsl .tedt .bar .fpd .flnk {
+  background-position: -40px -20px;
+}
+.boardnav .ct .mn .f_pst .bm_c .cl .hasfsl .tedt .bar .fpd .fqt {
+  background-position: -140px -20px;
+}
+.boardnav .ct .mn .f_pst .bm_c .cl .hasfsl .tedt .bar .fpd .fcd {
+  background-position: -120px -20px;
+}
+.boardnav .ct .mn .f_pst .bm_c .cl .hasfsl .tedt .bar .fpd .fsml {
+  background-position: -20px -20px;
+}
+.boardnav .ct .mn .f_pst .bm_c .cl .hasfsl .tedt .area {
+  padding: 4px;
+  background: #fff;
+}
+.boardnav .ct .mn .f_pst .bm_c .cl .hasfsl .tedt .area .pt {
+  width: 100%;
+  margin-right: 0;
+  padding: 0;
+  border: none;
+  background: #fff;
+  height: 100px;
+  line-height: 100px;
+  overflow-y: auto;
+  text-align: center;
+}
+.boardnav .ct .mn .f_pst .bm_c .cl .hasfsl .tedt .area .pt a {
+  color: #369;
+}
+.boardnav .ct .mn .f_pst .bm_c .pnpost .y {
+  float: right;
+  color: #333;
+}
+.boardnav .ct .mn .f_pst .bm_c .pnpost .pnc {
+  height: 26px;
+  border-color: #cce1b8;
+  background: #5e95da;
+  color: #fff;
+  vertical-align: middle;
+  overflow: hidden;
+  margin-right: 3px;
+  padding: 0;
+  border: 1px solid #999;
+  cursor: pointer;
+  box-shadow: 0 1px 0 #E5E5E5;
+}
+.boardnav .ct .mn .f_pst .bm_c .pnpost .pnc strong {
+  padding: 0 10px;
+}
+.ft {
+  padding: 10px 0 50px;
+  border-top: 1px solid #CDCDCD;
+  line-height: 1.8;
+  color: #666;
+  width: 1260px;
+  margin: 0 auto;
+  font-size: 12px;
+}
+.ft .y {
+  float: right;
+}
+.ft .flk {
+  text-align: right;
+}
+.ft .flk a {
+  color: #333;
+}
+.ft .frt a {
+  color: #333;
+}
+.ft .frt em {
+  font-style: normal;
+}
+.paybot_wrap {
+  padding-top: 20px;
+  font: normal 12px "微软雅黑";
+  color: #8f8f8f;
+}
+.paybot_wrap a {
+  font: normal 12px "微软雅黑";
+  color: #8f8f8f;
+}
+.paybot_wrap .paybot_wrap_link {
+  height: 28px;
+  border-top: 1px solid #E6E6E6;
+  border-bottom: 1px solid #E6E6E6;
+}
+.paybot_wrap .paybot_wrap_link div {
+  width: 1028px;
+  height: 28px;
+  margin: 0 auto;
+  line-height: 28px;
+  text-align: center;
+}
+.paybot_wrap .paybot_wrap_link div a {
+  margin: 0 15px;
+}
+.paybot_wrap .paybot_wrap_p {
+  width: 1002px;
+  margin: 10px auto 0;
+  line-height: 20px;
+  text-align: center;
+}
+.paybot_wrap .paybot_wrap_img {
+  padding: 10px 0 20px;
+  text-align: center;
+}
+.paybot_wrap .paybot_wrap_img a img {
+  margin: 0 10px;
+}
+/*# sourceMappingURL=bbs.css.map */

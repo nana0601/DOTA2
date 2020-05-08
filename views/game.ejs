@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="stylesheets/news.css"/>
+		<script src="javascripts/jquery.js"></script>
+		<script src="javascripts/news.js"></script>
+	</head>
+	<body>
+		<div class="box">
+		<%- include('mould/header.ejs'); %>
+		<div class="main">
+			<div class="banner"></div>
+			<div class="main-fix">
+				<div class="news">
+					<div class="news_header">
+						<h1>新闻中心</h1>
+						<h3>
+							<span>您的位置：</span>
+							<a href="">首页</a>
+							<span>></span>
+							<a href="">赛事新闻</a>
+						</h3>
+					</div>
+					<div class="news_start">
+						<div class="news_hot">
+							<ul class="lists_fix">
+								<li class="item">
+									<a href="">
+										<i class="icon icon-new"></i>
+										<span>
+											<img src="images/newslist1.jpg" alt="" >
+										</span>
+										<span class="filter"></span>
+										<span class="desc">DOTA2 4月22日更新日志：7.26a平衡性更新</span>
+									</a>
+								</li>
+								<li class="item">
+									<a href="">
+										<i class="icon icon-hot"></i>
+										<span>
+											<img src="images/newslist2.png" alt="天梯定位匹配更新" >
+										</span>
+										<span class="filter"></span>
+										<span class="desc">天梯定位匹配更新</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="news_lists">
+							<ul class="tabs_fix">
+								<li><a href="" class="tab"  id="news">综合新闻</a></li>
+								<li><a href="news" class="tab" id="news">官方新闻</a></li>
+								<li><a href="game" class="tab" id="news"style="color: #379be9;border-color: #379be9;">赛事新闻</a></li>
+								<li><a href="renew" class="tab" id="news">更新日志</a></li>
+							</ul>
+							<ul class="pans">
+								<li class="">
+									<a href="" class="itam">
+										<div class="new_log">
+											<img src="images/g1.png" >
+										</div>
+										<div class="new_msg">
+											<h2 class="titi">骑士亮剑，擂台易主！守擂赛5月10日、娱乐赛5月17日开战</h2>
+											<p class="cont">完美世界全国守擂赛第四周的战斗将于5月10日继续，目前已开放报名。另外，喜爱OMG模式的玩家也有机会一展身手！守擂赛娱乐模式（OMG）将于5月11</p>
+											<p class="date">2020-05-06</p>
+										</div>
+									</a>
+									<a href="" class="itam">
+										<div class="new_log">
+											<img src="images/g2.png" >
+										</div>
+										<div class="new_msg">
+											<h2 class="titi">勇士令状稍后将至，第10届国际邀请赛推迟举办</h2>
+											<p class="cont">第10届国际邀请赛的总奖金中也会有下一个勇士令状的25%销售额注入，而我们计划在不久后率先推出勇士令状，而不是等到赛事临近。但因为团队目前居家办公</p>
+											<p class="date">2020-05-01</p>
+										</div>
+									</a>
+									<a href="" class="itam">
+										<div class="new_log">
+											<img src="images/g1.png" >
+										</div>
+										<div class="new_msg">
+											<h2 class="titi">Leopard Gaming金身不破！五一黄金周，全国守擂赛DOTA2精彩继续</h2>
+											<p class="cont">5月3日本周日，完美世界全国守擂赛DOTA2开启第三周的战斗！上周Leopard Gaming成功连擂，全国总决赛将在基础奖金池5万的基础上增加1万元奖金。</p>
+											<p class="date">2020-04-28</p>
+										</div>
+									</a>
+									<a href="" class="itam">
+										<div class="new_log">
+											<img src="images/g1.png" >
+										</div>
+										<div class="new_msg">
+											<h2 class="titi">擂主诞生，等你挑战！本周六DOTA2全国守擂赛精彩继续</h2>
+											<p class="cont">4月25日本周六，全国守擂赛将决出第二周的周冠军，并挑战当前擂主Leopard Gaming。</p>
+											<p class="date">2020-04-22</p>
+										</div>
+									</a>
+									<a href="" class="itam">
+										<div class="new_log">
+											<img src="images/g3.jpg" >
+										</div>
+										<div class="new_msg">
+											<h2 class="titi">【赛事信息汇总】周末赛事预告</h2>
+											<p class="cont">ESL欧洲&独联体区小组赛全部结束，即将进入淘汰赛赛程，共有八支战队进入淘汰赛，其中VP、TSpirit、Secret、OG处于胜者组，除决赛BO5外均为BO3。</p>
+											<p class="date">2020-04-17</p>
+										</div>
+									</a>
+									<a href="" class="itam">
+										<div class="new_log">
+											<img src="images/g1.png" >
+										</div>
+										<div class="new_msg">
+											<h2 class="titi">本周日DOTA2守擂赛第一周！谁将坐镇首位擂主宝座？</h2>
+											<p class="cont">完美世界全国守擂赛本周日DOTA2开战~</p>
+											<p class="date">2020-04-16</p>
+										</div>
+									</a>
+									<a href="" class="itam">
+										<div class="new_log">
+											<img src="images/g4.png" >
+										</div>
+										<div class="new_msg">
+											<h2 class="titi">【赛事信息汇总】4月12日-13日赛况</h2>
+											<p class="cont">今天的比赛包括中国DOTA2职业俱乐部联赛(CDA)、ESL洛杉矶站的欧洲&独联体区小组赛。</p>
+											<p class="date">2020-04-13</p>
+										</div>
+									</a>
+									<a href="" class="itam">
+										<div class="new_log">
+											<img src="images/g1.png" >
+										</div>
+										<div class="new_msg">
+											<h2 class="titi">你是“攻”还是“守”？ 完美世界全国守擂赛报名开启</h2>
+											<p class="cont">4月8日起，完美世界全国守擂赛开始报名啦！</p>
+											<p class="date">2020-04-08</p>
+										</div>
+									</a>
+								</li>
+								<li class=""></li>
+								<li class=""></li>
+								<li class=""></li>
+							</ul>
+						</div>
+						<div class="btn_more">
+							
+						</div>
+					</div>
+				</div>
+				<div class="anchor">
+					<a href="">
+						<i class="icon icon-anchor"></i>
+					</a>
+				</div>
+				<div class="sidebar">
+					<div class="bar">
+						<a href="" class="btn btn-recharge"></a>
+						<a href="" class="btn btn-download"></a>
+						<a href="" class="btn btn-signup"></a>
+					</div>
+					<div class="more">
+						<a href="" class="btn btn-match"></a>
+						<a href="" class="btn btn-events"></a>
+						<a href="" class="btn btn-bbs"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<%- include('mould/footer.ejs'); %>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,104 @@
+.titC{
+	padding: 40px;
+	font-size: 40px;
+	color: #55201a;
+	font-weight: bold;
+}
+.chart_box{
+	margin: 10px 0px;
+    width: 850px;
+    height: 222px;
+	margin-left:40px;
+    background: url(../images/chart01_new.jpg) no-repeat;
+    position: relative;
+}
+.chart_box>a{
+	display:block;
+	width: 155px;
+	height: 34px;
+	position: absolute;
+	top: 121px;
+}
+.chart_box>.a1{
+	left:23px;
+}
+.chart_box>.a2{
+	left:238px;
+}
+.chart_box>.a3{
+	left:453px;
+}
+.chart_box>.a4{
+	left:668px;
+}
+.configure{
+	width: 850px;
+	padding: 15px 0px;
+	margin-left:40px;
+	clear: both;
+	border: 1px solid #dbdbdb;
+}
+.configure>.quboder{
+	border:none;
+}
+.configureL{
+	float: left;
+	width: 424px;
+	height: auto !important;
+	min-height: 210px;
+	height: 210px;
+	border-right: 1px solid #dbdbdb;
+}
+.configureL_tit{
+	color: #303030;
+	font-size: 30px;
+	padding: 15px 0px 25px 34px;
+}
+.table_box{
+	color: rgb(102,102,102);
+	font-size: 14px;
+	line-height: 22px;
+	width: 358px;
+	padding: 0px 0px 0px 26px;
+}
+.table_box>table{
+	width:100%;
+}
+.table_box>table>tbody>tr>.f01{
+	text-align: right;
+    color: #303030;
+    font-weight: bold;
+    vertical-align: top;
+}
+.questions{
+	margin-left:40px;
+	width: 850px;
+	padding: 15px;
+	clear: both;
+	border: 1px solid #dbdbdb;
+	color: #303030;
+	box-sizing: border-box;
+}
+.questions>.q01{
+	font-size: 14px;
+    padding: 10px 0px;
+}
+.questions>p{
+	line-height: 1.5;
+    font-size: 14px;
+}
+.questions>p>a{
+	color: #303030;
+    text-decoration: underline
+}
+.questions>.line{
+	width: 790px;
+    height: 1px;
+    margin: 15px 0px;
+    border-bottom: 1px solid #dbdbdb;
+}
+   
+    
+
+
+    

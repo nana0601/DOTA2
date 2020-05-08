@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-family: "微软雅黑", "宋体", Arial, Helvetica, sans-serif;
+  background-color: #060606;
+  color: #999999;
+}
+body .bg {
+  background: url(../images/bg-new-2019.jpg) no-repeat center top;
+  width: 100%;
+  height: 960px;
+}
+body .bg .rell {
+  height: 960px;
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+body .bg .rell a {
+  left: 0;
+  top: 36px;
+  position: absolute;
+  font-family: "微软雅黑", "宋体", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  outline: none;
+  color: #999;
+}
+/*# sourceMappingURL=login.css.map */

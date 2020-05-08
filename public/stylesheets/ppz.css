@@ -1,0 +1,257 @@
+body {
+  width: 1920px;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 12px;
+  font-family: 'Microsoft YaHei', Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  background-color: #000 !important;
+}
+body a {
+  text-decoration: none;
+}
+body .header {
+  position: relative;
+  z-index: 6;
+}
+body .header .navbar {
+  position: relative;
+  width: 1220px;
+  margin: 0 auto;
+}
+body .header .navbar ul {
+  overflow: hidden;
+}
+body .header .navbar ul li {
+  width: 128px;
+  float: left;
+  text-align: center;
+  margin-left: 58px;
+  padding-top: 25px;
+  padding-bottom: 2px;
+}
+body .header .navbar ul li a {
+  display: block;
+  font-size: 16px;
+  color: #928796;
+  letter-spacing: 1px;
+  line-height: 100%;
+  position: relative;
+  transition: color 0.2s;
+}
+body .header .navbar ul li a:hover {
+  color: #fff;
+}
+body .header .navbar ul li:first-child {
+  margin-left: 0;
+}
+body .header .navbar ul li:first-child + li + li + li {
+  margin-left: 220px;
+}
+body .header .navbar .dota2-logo {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  width: 160px;
+  height: 83px;
+  margin-left: -79px;
+  overflow: hidden;
+}
+body .header .navbar .dota2-logo a {
+  display: block;
+  height: 100%;
+}
+body .wrapper {
+  overflow: hidden;
+  margin-top: -43px;
+  position: relative;
+  background: #000 url('../images/ppzfy.jpg') no-repeat center top;
+  height: 1230px;
+}
+body .wrapper .banner {
+  width: 100%;
+  height: 1105px;
+  padding-top: 119px;
+}
+body .wrapper .banner video {
+  width: 1920px;
+  position: absolute;
+  left: 50%;
+  top: 64px;
+  transform: translateX(-50%);
+}
+body .wrapper .banner .video-mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background: url('../images/vide-mask.png') no-repeat top center;
+  height: 1303px;
+  z-index: 2;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body .wrapper .banner .slogin {
+  width: 916px;
+  height: 413px;
+  background-image: url('../images/swzz.png');
+  position: relative;
+  z-index: 6;
+  margin: 310px auto 0;
+}
+body .wrapper .banner .content {
+  position: absolute;
+  left: 50%;
+  bottom: 162px;
+  z-index: 9;
+  width: 1200px;
+  margin-left: -600px;
+  text-align: center;
+}
+body .wrapper .banner .content ul li {
+  width: 340px;
+  float: left;
+  margin-left: 90px;
+  height: 183px;
+  position: relative;
+}
+body .wrapper .banner .content ul li .group {
+  position: relative;
+  height: 100%;
+  box-sizing: border-box;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -ms-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+  opacity: 1;
+  top: 0;
+}
+body .wrapper .banner .content ul li .group .border {
+  position: absolute;
+  width: 406px;
+  height: 262px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  background: url('../images/bordertip.png') no-repeat;
+}
+body .wrapper .banner .content ul li .group img {
+  height: 100%;
+}
+body .wrapper .banner .content ul li h4 {
+  visibility: hidden;
+  opacity: 0;
+  font-size: 18px;
+  color: #8b64cd;
+  margin-top: 0px;
+  transition: all 0.5s ease;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  position: relative;
+}
+body .wrapper .banner .content ul li:first-child {
+  margin-left: 0;
+}
+body .modle {
+  height: 125px;
+  position: relative;
+  z-index: 10;
+  top: 20px;
+  margin-top: -156px;
+}
+body .modle ul {
+  width: 1078px;
+  margin: 0 auto;
+  padding: 42px 0;
+}
+body .modle ul li {
+  float: left;
+  margin-right: 39px;
+}
+body .modle ul li a {
+  display: block;
+  background: url(../images/mod.png) no-repeat;
+  height: 42px;
+  width: 104px;
+}
+body .modle ul li a:hover {
+  background-position-y: -42px;
+}
+body .modle ul li:nth-child(2) a {
+  width: 118px;
+  background-position-x: -143px;
+}
+body .modle ul li:nth-child(3) {
+  margin-right: 122px;
+}
+body .modle ul li:nth-child(3) a {
+  width: 104px;
+  background-position-x: -301px;
+}
+body .modle ul li:nth-child(4) a {
+  width: 87px;
+  background-position-x: -527px;
+}
+body .modle ul li:nth-child(5) a {
+  position: relative;
+  width: 85px;
+  background-position-x: -654px;
+}
+body .modle ul li:nth-child(6) {
+  margin-right: 123px;
+}
+body .modle ul li:nth-child(6) a {
+  width: 88px;
+  background-position-x: -780px;
+}
+body .modle ul li:nth-child(7) {
+  margin-right: 0;
+}
+body .modle ul li:nth-child(7) a {
+  width: 88px;
+  background-position-x: 100%;
+}
+body .bottom {
+  height: 180px;
+  background: #000 url(../images/ppzfy.jpg) no-repeat center bottom;
+  /* z-index: 1; */
+  font-size: 12px;
+  color: #959595;
+  position: relative;
+}
+body .bottom .foot_dl {
+  width: 988.625px;
+  height: 30px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+body .bottom .foot_dl .dt {
+  float: left;
+}
+body .bottom .foot_dl .dt a {
+  float: left;
+  padding: 0 11px;
+}
+body .bottom .certificate {
+  width: 881.781px;
+  height: 37.266px;
+  margin: 20px auto 0;
+  line-height: 1.5;
+  font-size: 12px;
+  color: #333;
+  text-align: center;
+}
+body .bottom .certificate a {
+  color: #959595;
+}
+body .bottom .remark {
+  line-height: 1.5;
+  font-size: 12px;
+  color: #333;
+  text-align: center;
+}
+/*# sourceMappingURL=ppz.css.map */
